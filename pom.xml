@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.jive.v5</groupId>
+		<artifactId>parent</artifactId>
+		<version>13</version>
+	</parent>
+	<groupId>com.jive.v5.hillbilly</groupId>
+	<artifactId>service</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.fusesource.hawtdispatch</groupId>
+			<artifactId>hawtdispatch</artifactId>
+			<version>1.20</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.jive.ftw.sip</groupId>
+			<artifactId>dummer</artifactId>
+			<version>1.26</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jive.myco.commons</groupId>
+			<artifactId>myco-commons-concurrent</artifactId>
+			<version>0.2.6</version>
+		</dependency>
+	</dependencies>
+
+</project>
